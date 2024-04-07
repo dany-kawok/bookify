@@ -1,3 +1,6 @@
+:root {
+  --primary-color: #092d89; /* Example primary color (blue) */
+}
 * {
   padding: 0;
   margin: 0;
@@ -30,7 +33,7 @@ nav {
 }
 .logo-navbar i {
   font-size: 4rem;
-  color: #7b5244;
+  color: var(--primary-color);
 }
 
 .navbar {
@@ -43,7 +46,7 @@ nav {
   justify-content: space-evenly;
   align-items: center;
 
-  color: #7b5244;
+  color: var(--primary-color);
   font-size: 2rem;
 }
 .cart-logo {
@@ -51,7 +54,7 @@ nav {
 }
 .cart-items-count {
   position: absolute;
-  background-color: #7b5244;
+  background-color: var(--primary-color);
   border: 2px solid #f7f3ef;
   font-size: 0.7rem;
   color: #fff;
@@ -95,7 +98,7 @@ nav {
   cursor: pointer;
 }
 .hero-btn2 {
-  background-color: #7b5244;
+  background-color: var(--primary-color);
   color: #f7f3ef;
 }
 .section-header {
@@ -110,7 +113,7 @@ nav {
 .under-line {
   width: 100px;
   height: 2px;
-  background-color: #7b5244;
+  background-color: var(--primary-color);
   transition: width 0.5s ease-in;
 }
 .section-header:hover .under-line {
@@ -142,7 +145,7 @@ nav {
 .footer {
   height: 20dvh;
 
-  background-color: #7b5244;
+  background-color: var(--primary-color);
   text-align: center;
   color: #f7f3ef;
   border-radius: 10px;
@@ -171,7 +174,7 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #7b5244;
+    color: var(--primary-color);
     font-size: 3rem;
     cursor: pointer;
   }
@@ -227,7 +230,7 @@ nav {
     grid-template-rows: 2fr 1fr;
   }
   .summary i {
-    color: #7b5244;
+    color: var(--primary-color);
     font-size: 4rem;
     grid-row: 1/-1;
   }
@@ -261,7 +264,7 @@ nav {
     position: absolute;
     bottom: 50px;
     z-index: -10;
-    color: #7b5244;
+    color: var(--primary-color);
     opacity: 0;
     visibility: hidden;
     transition: all 0.7s;
@@ -380,18 +383,18 @@ nav {
     list-style: none;
     font-weight: bold;
     font-size: 0.7rem;
-    color: #7b5244;
+    color: var(--primary-color);
   }
   .main-nav a {
     text-decoration: none;
-    color: #7b5244;
+    color: var(--primary-color);
     position: relative;
 
     padding: 10px 4px 10px 4px;
   }
   .main-nav a span:nth-child(1) {
     position: absolute;
-    background-color: #7b5244;
+    background-color: var(--primary-color);
     height: 2px;
     width: 0;
     top: 0;
@@ -400,7 +403,7 @@ nav {
   }
   .main-nav a span:nth-child(2) {
     position: absolute;
-    background-color: #7b5244;
+    background-color: var(--primary-color);
     height: 2px;
     width: 0;
     bottom: 0;
@@ -409,7 +412,7 @@ nav {
   }
   .main-nav a span:nth-child(3) {
     position: absolute;
-    background-color: #7b5244;
+    background-color: var(--primary-color);
     height: 0;
     width: 2px;
     bottom: 0;
@@ -418,7 +421,7 @@ nav {
   }
   .main-nav a span:nth-child(4) {
     position: absolute;
-    background-color: #7b5244;
+    background-color: var(--primary-color);
     height: 0;
     width: 2px;
     bottom: 0;
@@ -443,7 +446,7 @@ nav {
     width: 0px;
     height: 0px;
     z-index: 10;
-    border: 2px solid #7b5244;
+    border: 2px solid var(--primary-color);
     top: 40px;
     left: -2px;
     opacity: 0;
@@ -499,7 +502,7 @@ nav {
     justify-content: center;
     align-items: center;
     position: relative;
-    border-left: 2px solid #7b5244;
+    border-left: 2px solid var(--primary-color);
   }
 
   .icon-div {
@@ -519,7 +522,7 @@ nav {
     position: absolute;
     bottom: 50px;
     z-index: -10;
-    color: #7b5244;
+    color: var(--primary-color);
     opacity: 0;
     visibility: hidden;
     transition: all 0.7s;
@@ -542,6 +545,7 @@ nav {
   .spec-category p,
   .logo p {
     color: rgb(150, 150, 150);
+    text-align: center;
   }
   .offer {
     height: auto;
@@ -571,7 +575,7 @@ nav {
     grid-template-rows: 2fr 1fr;
   }
   .summary i {
-    color: #7b5244;
+    color: var(--primary-color);
     font-size: 4rem;
     grid-row: 1/-1;
   }
@@ -661,7 +665,7 @@ nav {
     list-style: none;
     font-weight: bold;
     font-size: 1rem;
-    color: #7b5244;
+    color: var(--primary-color);
   }
   .card-products {
     display: grid;
@@ -714,7 +718,7 @@ nav {
     grid-template-rows: 2fr 1fr;
   }
   .summary i {
-    color: #7b5244;
+    color: var(--primary-color);
     font-size: 4rem;
     grid-row: 1/-1;
   }
