@@ -324,7 +324,7 @@ nav {
     position: relative;
   }
   .book-cover {
-    width: 100%;
+    width: 90%;
     transform-origin: left;
     transform-style: preserve-3d;
     transition: all 2s ease-out;
@@ -332,7 +332,7 @@ nav {
   }
   .book-page {
     position: absolute;
-    width: 100%;
+    width: 90%;
     height: 80%;
     background-image: url("imgs/books/french-page2.jpg");
     background-size: cover;
@@ -607,13 +607,13 @@ nav {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    align-items: start;
+    align-items: center;
     border-radius: 10px;
-    perspective: 1000px;
+    perspective: 1200px;
     position: relative;
   }
   .book-cover {
-    width: 100%;
+    width: 90%;
     transform-origin: left;
     transform-style: preserve-3d;
     transition: all 2s ease-out;
@@ -621,7 +621,7 @@ nav {
   }
   .book-page {
     position: absolute;
-    width: 100%;
+    width: 90%;
     height: 80%;
     background-image: url("imgs/books/french-page2.jpg");
     background-size: cover;
@@ -731,9 +731,6 @@ nav {
   .offer-img2:hover {
     height: 105%;
     width: 105%;
-  }
-  .book-page {
-    width: 70%;
   }
 }
 
